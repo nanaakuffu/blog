@@ -3,10 +3,9 @@
 <p><%= link_to "Create new article", new_article_path %></p>
 <table>
     <tr>
-        <th> ID </th>
+        <th> SN </th>
         <th> Title </th>
-        <th> Description </th>
-        <th> Controls </th>
+        <th colspan='3'> Description </th>
     </tr>
     
     <% @article.each do |item| %>
