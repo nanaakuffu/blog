@@ -38,7 +38,7 @@ tr:hover .controls {
 footer {
     margin-top: 45px;
     padding-top: 5px;
-    border-top: 1px #eaeaea;
+    border-top: 1px solid #eaeaea;
     color: #777;
 }
 
@@ -60,6 +60,18 @@ footer ul li {
     margin-left: 45px;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
+}
+
+.article-actions {
+    border-top: 2px solid #eaeaea;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.description {
+    margin-top: 4px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #eaeaea;
 }
