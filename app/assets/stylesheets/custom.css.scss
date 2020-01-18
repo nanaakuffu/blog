@@ -1,5 +1,28 @@
 @import "bootstrap";
 
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: -1px;
+    font-weight: 300;
+}
+
+#logo:hover {
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 0px;
+}
+
+.center {
+    text-align: center;
+}
+
+hr .my-4 {
+    color: white;
+}
+
 .controls {
     opacity: 0;
 }
