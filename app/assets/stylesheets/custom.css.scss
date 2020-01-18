@@ -19,7 +19,7 @@
     text-align: center;
 }
 
-hr .my-4 {
+.my-4 hr {
     color: white;
 }
 
@@ -33,4 +33,29 @@ tr:hover .controls {
 
 .controls:hover {
     border-radius: 50% !important;
+}
+
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px #eaeaea;
+    color: #777;
+}
+
+footer a:hover {
+    color: #222;
+}
+
+footer p {
+    float: left;
+}
+
+footer ul {
+    float: right;
+    list-style: none;
+}
+
+footer ul li {
+    float: left;
+    margin-left: 45px;
 }
