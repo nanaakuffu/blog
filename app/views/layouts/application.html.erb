@@ -10,7 +10,11 @@
   </head>
 
   <body>
-    <%= render "layouts/messages" %>
-    <%= yield %>
+    <%= render "layouts/header" %>
+    <div class="container">
+      <%= render "layouts/messages" %>
+      <%= yield %>
+    </div>
+    <%= render "layouts/footer" %>
   </body>
 </html>
