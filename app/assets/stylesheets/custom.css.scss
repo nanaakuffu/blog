@@ -73,18 +73,22 @@ h1, h2, h3, h4, h5, h6 {
     border-top: 1px solid #eaeaea;
     padding-top: 15px;
     padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.article-base {
+    padding: 10px;
+    border-top: 2px solid #eaeaea;
+    margin-top: 20px;
 }
 
 .article-meta-details {
-    border-top: 1px solid #eaeaea;
-    margin-top: 30px;
+    float: left;
 }
 
 .article-actions {
-    margin-top: 2px;
-    border-top: 2px solid #eaeaea;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    float: right;
 }
 
 .description {
