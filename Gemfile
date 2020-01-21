@@ -9,6 +9,10 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 # Secure password
 gem 'bcrypt', '~> 3.1.7'
 
+gem 'will_paginate', '3.2.1'
+# gem 'bootstrap-will_paginate', '1.0.0'
+gem 'will_paginate-bootstrap4', '~> 0.2.2'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
@@ -17,6 +21,10 @@ gem 'puma', '~> 4.1'
 gem 'bootstrap', '~> 4.4.1'
 gem 'sass-rails', '>= 6'
 gem 'jquery-rails'
+
+# Font-Awesome
+gem "font-awesome-rails"
+
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 4.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

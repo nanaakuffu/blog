@@ -1,3 +1,5 @@
 <h1 class="mt-3" align="center">Welcome to <%= @user.username %>'s page </h1>
 <h4 align="center"><%= @user.username %>'s articles </h4>
-<%= render "articles/display", obj: @user.articles %>
+<%= will_paginate @user_articles, list_classes: %w(pagination justify-content-center) %>
+<%= render "articles/display", obj: @user_articles %>
+<%= will_paginate @user_articles, list_classes: %w(pagination justify-content-center) %>

@@ -1,3 +1,6 @@
+
 <h1 class="mt-3" align="center">Showing all available articles </h1>
 
-<%= render "display", obj: @article %>
+<%= will_paginate @articles, list_classes: %w(pagination justify-content-center) %>
+<%= render "display", obj: @articles %>
+<%= will_paginate @articles, list_classes: %w(pagination justify-content-center) %>

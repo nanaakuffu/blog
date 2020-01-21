@@ -1,4 +1,5 @@
 <h1 class="pt-3" align="center"> All Bloggers </h1>
+<%= will_paginate @users, list_classes: %w(pagination justify-content-center) %>
 <% @users.each do |user| %>
     <div class="row">
         <div class="bg-light col-md-6 offset-md-3 users">
@@ -10,3 +11,4 @@
         </div>
     </div>
 <% end %>
+<%= will_paginate @users, list_classes: %w(pagination justify-content-center) %>
